@@ -65,10 +65,11 @@ El modelo debe ser **entrenado y evaluado** aplicando técnicas adecuadas de val
 Se entrenaron y evaluaron dos modelos de regresión:
 
 1. **Modelo completo:** utilizando todas las variables disponibles.  
-   - **MAE:** 1.7632 (escala de 0 a 100)
+   - **MAE:** 1.7632 (escala de 0 a 100).
 
 2. **Modelo reducido:** utilizando solo las variables **"Previous Scores"** y **"Hours Studied"**.  
-   - **MAE:** 1.9807 (escala de 0 a 100)
+   - **MAE:** 1.9807 (escala de 0 a 100).
+   - 
 A pesar de que el segundo modelo presenta un error ligeramente superior, se considera **más conveniente**, ya que logra un desempeño muy similar utilizando un **conjunto reducido de características**, lo cual **simplifica el modelo** y **mejora su interpretabilidad**.
 
 ---
